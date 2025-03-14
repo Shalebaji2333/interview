@@ -1,0 +1,109 @@
+.max-width-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+#experiencePage {
+    min-height: calc(100vh - 64px);
+    background-color: #f8f9fa;
+    padding: 32px 0;
+}
+
+.experience-main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.experience-main .ant-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.experience-main .ant-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.experience-main .ant-card .ant-card-body {
+    padding: 32px;
+}
+
+.title-card {
+    position: relative;
+}
+
+.title-card .ant-typography {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 24px !important;
+    color: #1a1a1a;
+}
+
+.title-card .article-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 24px;
+    margin-top: 24px;
+    border-top: 1px solid #eaeaea;
+    color: #666;
+}
+
+.title-card .article-meta .meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.title-card .article-meta .meta-item .anticon {
+    font-size: 16px;
+    color: #999;
+}
+
+.error-message {
+    text-align: center;
+    color: #ff4d4f;
+    font-size: 16px;
+    padding: 32px;
+    background: #fff1f0;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    .max-width-content {
+        padding: 0 20px;
+    }
+
+    .title-card .ant-typography {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .max-width-content {
+        padding: 0 16px;
+    }
+
+    #experiencePage {
+        padding: 20px 0;
+    }
+
+    .experience-main .ant-card .ant-card-body {
+        padding: 24px;
+    }
+
+    .title-card .ant-typography {
+        font-size: 24px;
+    }
+
+    .title-card .article-meta {
+        gap: 16px;
+    }
+} 

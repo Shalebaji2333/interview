@@ -1,0 +1,32 @@
+/* 直接使用与 QuestionCard 相同的样式 */
+.question-card {
+  width: 100%;
+}
+
+.question-meta {
+  margin: 8px 0 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.publisher {
+  color: #666;
+}
+
+/* 点赞按钮样式 */
+.question-meta .ant-btn {
+  padding: 0;
+  height: auto;
+}
+
+.question-meta .ant-btn:hover {
+  color: #1890ff;
+}
+
+.question-meta .anticon {
+  margin-right: 4px;
+}
+
+.question-title {
+  margin-bottom: 16px;
+}
